@@ -1,0 +1,179 @@
+body {margin: 0;}
+
+h2,h3{
+	text-align: center;
+	font-size: 30px;
+}
+
+h4{
+  text-align: center;
+  font-size: 25px;
+}
+.middletext{
+  text-align: center;
+}
+.listset{
+  column-width:15em;column-gap: 5em;
+}
+.normalfont{
+  font-style: normal;
+}
+.textfont{
+  font-size: 17px;
+}
+.basicolor{
+  background-color: rgb(255, 163, 26);
+}
+.roma{
+  font-size:15.5px;
+}
+.textul{
+  text-align: left; font-size: 17.2px;
+}
+.basicicon{
+  color: rgb(255, 163, 26);
+  font-size: 50px;
+}
+.pad{
+padding: 100px 0px 50px 0px;
+}
+.navbar
+{
+  margin-bottom: 0;
+  background-color: rgb(255, 163, 26);
+  z-index: 9999;
+  border: 0;
+  font-size: 12px ;
+  line-height: 1.42857143 ;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+ }
+
+.navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+html, body {
+	height: 100%;
+}
+section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+section h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font : normal 300 64px/1 'Josefin Sans', sans-serif;
+	text-align: center;
+	white-space: nowrap;
+}
+
+#section01 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;}
+
+
+div.col-sm-4,div.col-sm-8{
+	padding:0;
+	height:auto;
+	text-align: center;
+	padding-top: 0%;
+  padding-left: 0%;
+	font-size: 17.3px;}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: white;
+}
+
+.carousel-indicators li {
+    border-color: white;
+}
+
+.carousel-indicators li.active {
+    background-color: white;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 30px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:rgb(255, 163, 26);
+}
+
+.img:hover{
+  color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); 
+  -webkit-transform: scale(1.15);
+
+}
