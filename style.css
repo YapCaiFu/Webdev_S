@@ -5,18 +5,25 @@ h2,h3{
 	font-size: 30px;
 }
 
-h4{
-  text-align: center;
-  font-size: 25px;
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
+.opacolor{
+  background-color: rgba(255, 163, 26,0.7);
+}
+
 .middletext{
   text-align: center;
 }
 .listset{
   column-width:15em;column-gap: 5em;
 }
-.normalfont{
-  font-style: normal;
+.italicfont{
+  font-style: italic;
 }
 .textfont{
   font-size: 17px;
@@ -32,10 +39,10 @@ h4{
 }
 .basicicon{
   color: rgb(255, 163, 26);
-  font-size: 50px;
+  font-size: 30px;
 }
 .pad{
-padding: 100px 0px 50px 0px;
+padding: 150px 0px 0px 0px;
 }
 .navbar
 {
@@ -84,8 +91,10 @@ section h1 {
 	white-space: nowrap;
 }
 
-#section01 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;}
-
+#section01 { background: url(file:///C:/Projects/Webdev_S/assets/iStock-481429289-road%20tunnel.jpg) center center / cover no-repeat;
+width: 100%}
+#section02 { background: url(file:///C:/Projects/Webdev_S/assets/iStock-185092276-NATM.jpg) center center / cover no-repeat;
+width: 100%}
 
 div.col-sm-4,div.col-sm-8{
 	padding:0;
@@ -149,7 +158,7 @@ div.col-sm-4,div.col-sm-8{
 .item h4 {
     font-size: 19px;
     line-height: 1.375em;
-    font-weight: 400;
+    font-weight: 400px;
     font-style: italic;
     margin: 30px 0;
 }
@@ -159,21 +168,61 @@ div.col-sm-4,div.col-sm-8{
 }
 
 footer .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 0px;
     color:rgb(255, 163, 26);
 }
 
-.img:hover{
-  color: #424242; 
-  -webkit-transition: all .3s ease-in;
-  -moz-transition: all .3s ease-in;
-  -ms-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  transition: all .3s ease-in;
-  opacity: 1;
-  transform: scale(1.15);
-  -ms-transform: scale(1.15); 
-  -webkit-transform: scale(1.15);
-
+.image {
+  display: block;
+  width: 100%;
 }
+
+.midoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 25%;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(0, 0, 0,0.4);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(0, 0, 0,0.4);
+}
+.imgcontain{
+  position: relative;
+}
+.imgcontain:hover .overlay {
+  opacity: 1;
+}
+
+.imgcontain:hover .midoverlay {
+  opacity: 1;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.mySlides {display:none;}
