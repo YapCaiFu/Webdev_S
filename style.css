@@ -91,9 +91,9 @@ section h1 {
 	white-space: nowrap;
 }
 
-#section01 { background: url(file:///C:/Projects/Webdev_S/assets/iStock-481429289-road%20tunnel.jpg) center center / cover no-repeat;
+#section01 { background: url(assets/iStock-481429289-road%20tunnel.jpg) center center / cover no-repeat;
 width: 100%}
-#section02 { background: url(file:///C:/Projects/Webdev_S/assets/iStock-185092276-NATM.jpg) center center / cover no-repeat;
+#section02 { background: url(assets/iStock-185092276-NATM.jpg) center center / cover no-repeat;
 width: 100%}
 
 div.col-sm-4,div.col-sm-8{
@@ -226,3 +226,9 @@ footer .glyphicon {
 }
 
 .mySlides {display:none;}
+
+.icon-logo{
+  width: inherit;
+  height: inherit;
+  display: inline-flex;
+}
