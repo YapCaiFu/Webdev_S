@@ -1,36 +1,83 @@
-  <div id="products">
-    <h2>Products</h2><br>
-    <h4>Provision of tunnelling and mining material and equipment</h4><br>
-    <br>
-    <div class="row">
-      <div class="col-sm-6">
-        <span class="glyphicon glyphicon-briefcase basicicon"></span>
-        <h4>EQUIPMENT</h4><br>
-        <p>
-          <ul class="textul listset">
-            <li>TBM , back-up and auxiliary equipment</li>
-            <li>NATM equipment</li>
-            <li>Micro tunnelling equipment</li>
-            <li>Rolling stock</li>
-            <li>Ware and spare parts</li>
-            <li>Site installation equipment</li>
-          </ul>
-        </p>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="assets\071020_Armin - logo -S4-t.jpg" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="C:\Projects\Webdev_S\stylesub.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--script src="C:/Projects/Webdev_S/indexsub.js"></script-->
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SENIPA Holding Ltd</title>
+</head>
+
+<body id="topp" class=" backgd">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="assets\071020_Armin - logo -S4-t.jpg" width="60px" height="50px"></a>
       </div>
-      <div class="col-sm-6">
-        <span class="glyphicon glyphicon-wrench basicicon"></span>
-        <h4>MATERIAL AND TOOLS</h4><br>
-        <p>
-        <ul class="textul listset">
-          <li>Material and tools</li>
-          <li>Hydraulic</li>
-          <li>Electric</li>
-          <li>Pneumatic</li>
-          <li>Steelworks</li>
-          <li>Tools</li>
-          <li>Consumables</li>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="subpage3.html">ABOUT</a></li>
+          <li><a href="subpage2.html">PRODUCTS</a></li>
+          <li><a href="subpage4.html">SERVICES</a></li>
+          <li><a href="subpage5.html">FINANCING</a></li>
+          <li><a href="subpage6.html">CAREERS</a></li>
+          <li><a href="subpage7.html">CONTACT</a></li>
         </ul>
-        </p>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="pad">
+    <h2>About Us</h2><br>
+      <div class="row">
+        <div class="col-sm-5 " >
+            <div class="w3-content w3-section" style="max-width:550px">
+  <img class="mySlides" width=100% src="assets\iStock-521681325-rail tunnel.jpg">
+  <img class="mySlides" width=100% src="assets\iStock-503961344-TBM.jpg"></div>
+        </div>
+        <div class="col-sm-7">
+          <h4>SENIPA's specialty: tunnelling services with guaranteed tunnel advance rates.</h4><br>
+          <ul class="textul">
+            <li>SENIPA is a dynamic team, focusing its human resources on the tunnelling and mining industry</li><br>
+            <li>SENIPA is contractor in the tunnelling industry and has in addition - through the vast personnel resources -
+              the capability to execute any kind of tunnel design works.</li><br>
+            <li>SENIPA supplies tunnelling and mining material and equipment.</li><br>
+            <li>SENIPA is headed by a team of highly experienced tunnelling engineers from Western Europe,<br>who held management
+              positions in well know construction and engineering firms.</li><br>
+            <li>SENIPA's general staff consists of Western European experts, complemented by experts from various countries from
+              all continents.</li><br>
+            <li>SENIPA's experts have experience in the tunnelling and mining industry in all continents.</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000);
+}
+</script>
+</body>
+
+</html>
