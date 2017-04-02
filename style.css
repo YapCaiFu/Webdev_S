@@ -227,7 +227,11 @@ footer .glyphicon {
 
 .mySlides {display:none;}
 
+<<<<<<< HEAD
 icon-logo{
+=======
+.icon-logo{
+>>>>>>> origin/master
   width: inherit;
   height: inherit;
   display: inline-flex;
