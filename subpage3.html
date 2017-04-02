@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="shortcut icon" href="assets/071020_Armin - logo -S4-t.jpg" />
+  <link rel="shortcut icon" href="assets/071020_Armin - logo -S4-t.jpg">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="stylesub.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!--script src="C:/Projects/Webdev_S/indexsub.js"></script-->
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SENIPA Holding Ltd</title>
 </head>
 
-<body id="topp" class=" backgd">
+<body class=" backgd">
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -38,12 +38,12 @@
 
   <div class="container-fluid">
     <div class="pad">
-    <h2>About Us</h2><br>
+      <h2>About Us</h2><br>
       <div class="row">
-        <div class="col-sm-5 " >
-            <div class="w3-content w3-section" style="max-width:550px">
-  <img class="mySlides" width=100% src="assets/iStock-521681325-rail tunnel.jpg">
-  <img class="mySlides" width=100% src="assets/iStock-503961344-TBM.jpg"></div>
+        <div class="col-sm-5 ">
+          <div class="w3-content w3-section" style="max-width:550px">
+            <img class="mySlides" width=100% src="assets/iStock-521681325-rail tunnel.jpg">
+            <img class="mySlides" width=100% src="assets/iStock-503961344-TBM.jpg"></div>
         </div>
         <div class="col-sm-7">
           <h4>SENIPA's specialty: tunnelling services with guaranteed tunnel advance rates.</h4><br>
@@ -62,22 +62,7 @@
       </div>
     </div>
   </div>
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 5000);
-}
-</script>
+  <script src="carousel.js"></script>
 </body>
 
 </html>

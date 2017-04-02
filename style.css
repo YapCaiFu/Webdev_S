@@ -1,8 +1,8 @@
 body {margin: 0;}
 
 h2,h3{
-	text-align: center;
-	font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
 h4 {
@@ -13,7 +13,7 @@ h4 {
     text-align: center;
 }
 .opacolor{
-  background-color: rgba(255, 163, 26,0.7);
+  background-color: rgba(204,102,0,0.7);
 }
 
 .middletext{
@@ -29,7 +29,7 @@ h4 {
   font-size: 17px;
 }
 .basicolor{
-  background-color: rgb(255, 163, 26);
+  background-color: rgb(204,102,0);
 }
 .roma{
   font-size:15.5px;
@@ -38,7 +38,7 @@ h4 {
   text-align: left; font-size: 17.2px;
 }
 .basicicon{
-  color: rgb(255, 163, 26);
+  color: rgb(204,102,0);
   font-size: 30px;
 }
 .pad{
@@ -47,7 +47,7 @@ padding: 150px 0px 0px 0px;
 .navbar
 {
   margin-bottom: 0;
-  background-color: rgb(255, 163, 26);
+  background-color: rgb(204,102,0);
   z-index: 9999;
   border: 0;
   font-size: 12px ;
@@ -71,24 +71,24 @@ padding: 150px 0px 0px 0px;
 
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 html, body {
-	height: 100%;
+  height: 100%;
 }
 section {
-	position: relative;
-	width: 100%;
-	height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 section h1 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	z-index: 2;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	color: #fff;
-	font : normal 300 64px/1 'Josefin Sans', sans-serif;
-	text-align: center;
-	white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font : normal 300 64px/1 'Josefin Sans', sans-serif;
+  text-align: center;
+  white-space: nowrap;
 }
 
 #section01 { background: url(assets/iStock-481429289-road%20tunnel.jpg) center center / cover no-repeat;
@@ -97,12 +97,12 @@ width: 100%}
 width: 100%}
 
 div.col-sm-4,div.col-sm-8{
-	padding:0;
-	height:auto;
-	text-align: center;
-	padding-top: 0%;
+  padding:0;
+  height:auto;
+  text-align: center;
+  padding-top: 0%;
   padding-left: 0%;
-	font-size: 17.3px;}
+  font-size: 17.3px;}
 
 .scroll-down {
   opacity: 1;
@@ -170,7 +170,7 @@ div.col-sm-4,div.col-sm-8{
 footer .glyphicon {
     font-size: 30px;
     margin-bottom: 0px;
-    color:rgb(255, 163, 26);
+    color:rgb(204,102,0);
 }
 
 .image {
@@ -227,7 +227,7 @@ footer .glyphicon {
 
 .mySlides {display:none;}
 
-.icon-logo{
+icon-logo{
   width: inherit;
   height: inherit;
   display: inline-flex;
