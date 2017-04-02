@@ -1,8 +1,8 @@
 body {margin: 0;}
 
 h2,h3{
-	text-align: center;
-	font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
 h4 {
@@ -71,24 +71,24 @@ padding: 150px 0px 0px 0px;
 
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 html, body {
-	height: 100%;
+  height: 100%;
 }
 section {
-	position: relative;
-	width: 100%;
-	height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 section h1 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	z-index: 2;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	color: #fff;
-	font : normal 300 64px/1 'Josefin Sans', sans-serif;
-	text-align: center;
-	white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font : normal 300 64px/1 'Josefin Sans', sans-serif;
+  text-align: center;
+  white-space: nowrap;
 }
 
 #section01 { background: url(assets/iStock-481429289-road%20tunnel.jpg) center center / cover no-repeat;
@@ -97,12 +97,12 @@ width: 100%}
 width: 100%}
 
 div.col-sm-4,div.col-sm-8{
-	padding:0;
-	height:auto;
-	text-align: center;
-	padding-top: 0%;
+  padding:0;
+  height:auto;
+  text-align: center;
+  padding-top: 0%;
   padding-left: 0%;
-	font-size: 17.3px;}
+  font-size: 17.3px;}
 
 .scroll-down {
   opacity: 1;
@@ -227,11 +227,7 @@ footer .glyphicon {
 
 .mySlides {display:none;}
 
-<<<<<<< HEAD
 icon-logo{
-=======
-.icon-logo{
->>>>>>> origin/master
   width: inherit;
   height: inherit;
   display: inline-flex;
