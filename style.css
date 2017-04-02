@@ -13,7 +13,7 @@ h4 {
     text-align: center;
 }
 .opacolor{
-  background-color: rgba(255, 163, 26,0.7);
+  background-color: rgba(204,102,0,0.7);
 }
 
 .middletext{
@@ -29,7 +29,7 @@ h4 {
   font-size: 17px;
 }
 .basicolor{
-  background-color: rgb(255, 163, 26);
+  background-color: rgb(204,102,0);
 }
 .roma{
   font-size:15.5px;
@@ -38,7 +38,7 @@ h4 {
   text-align: left; font-size: 17.2px;
 }
 .basicicon{
-  color: rgb(255, 163, 26);
+  color: rgb(204,102,0);
   font-size: 30px;
 }
 .pad{
@@ -47,7 +47,7 @@ padding: 150px 0px 0px 0px;
 .navbar
 {
   margin-bottom: 0;
-  background-color: rgb(255, 163, 26);
+  background-color: rgb(204,102,0);
   z-index: 9999;
   border: 0;
   font-size: 12px ;
@@ -91,9 +91,9 @@ section h1 {
 	white-space: nowrap;
 }
 
-#section01 { background: url(file:///C:/Projects/Webdev_S/assets/iStock-481429289-road%20tunnel.jpg) center center / cover no-repeat;
+#section01 { background: url(assets/iStock-481429289-road%20tunnel.jpg) center center / cover no-repeat;
 width: 100%}
-#section02 { background: url(file:///C:/Projects/Webdev_S/assets/iStock-185092276-NATM.jpg) center center / cover no-repeat;
+#section02 { background: url(assets/iStock-185092276-NATM.jpg) center center / cover no-repeat;
 width: 100%}
 
 div.col-sm-4,div.col-sm-8{
@@ -170,7 +170,7 @@ div.col-sm-4,div.col-sm-8{
 footer .glyphicon {
     font-size: 30px;
     margin-bottom: 0px;
-    color:rgb(255, 163, 26);
+    color:rgb(204,102,0);
 }
 
 .image {
@@ -226,3 +226,9 @@ footer .glyphicon {
 }
 
 .mySlides {display:none;}
+
+icon-logo{
+  width: inherit;
+  height: inherit;
+  display: inline-flex;
+}
