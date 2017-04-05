@@ -2,52 +2,46 @@ body {margin: 0;}
 
 h2,h3{
   text-align: center;
-  font-size: 30px;
+  font-size: 25px !important;
 }
 
 h4 {
-    font-size: 19px;
+    font-size: 17px !important;
     line-height: 1.375em;
     font-weight: 400;
     font-style: normal;
     text-align: center;
 }
-.opacolor{
-  background-color: rgba(204,102,0,0.7);
+
+h5 {
+    font-size: 14px !important;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
 }
 
-.middletext{
-  text-align: center;
-}
-.listset{
-  column-width:15em;column-gap: 5em;
-}
+
 .italicfont{
   font-style: italic;
 }
 .textfont{
   font-size: 17px;
 }
-.basicolor{
-  background-color: rgb(204,102,0);
-}
 .roma{
-  font-size:15.5px;
-}
-.textul{
-  text-align: left; font-size: 17.2px;
+  font-size:13px;
 }
 .basicicon{
-  color: rgb(204,102,0);
-  font-size: 30px;
+  color: grey;
+  font-size: 20px;
 }
 .pad{
-padding: 150px 0px 0px 0px;
+padding: 15px;
 }
 .navbar
 {
   margin-bottom: 0;
-  background-color: rgb(204,102,0);
+  background-color:grey;
   z-index: 9999;
   border: 0;
   font-size: 12px ;
@@ -61,7 +55,7 @@ padding: 150px 0px 0px 0px;
       color: #fff !important;
   }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
+      color: grey!important;
       background-color: #fff !important;
   }
 .navbar-default .navbar-toggle {
@@ -91,9 +85,9 @@ section h1 {
   white-space: nowrap;
 }
 
-#section01 { background: url(assets/iStock-481429289-road%20tunnel.jpg) center center / cover no-repeat;
+#section01 { background: url(assets/concrete-tunnel.jpg) center center / cover no-repeat;
 width: 100%}
-#section02 { background: url(assets/iStock-185092276-NATM.jpg) center center / cover no-repeat;
+#section02 { background: url(assets/grey-tunnel.jpg) center center / cover no-repeat;
 width: 100%}
 
 div.col-sm-4,div.col-sm-8{
@@ -167,29 +161,11 @@ div.col-sm-4,div.col-sm-8{
     font-style: normal;
 }
 
-footer .glyphicon {
-    font-size: 30px;
-    margin-bottom: 0px;
-    color:rgb(204,102,0);
-}
-
 .image {
   display: block;
   width: 100%;
 }
 
-.midoverlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 25%;
-  right: 0;
-  height: 100%;
-  width: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color:rgba(0, 0, 0,0.4);
-}
 .overlay {
   position: absolute;
   top: 0;
@@ -209,14 +185,11 @@ footer .glyphicon {
   opacity: 1;
 }
 
-.imgcontain:hover .midoverlay {
-  opacity: 1;
-}
 
 .text {
   white-space: nowrap; 
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -231,4 +204,33 @@ icon-logo{
   width: inherit;
   height: inherit;
   display: inline-flex;
+}
+
+.button {
+  display: inline-block;
+  margin-left: 8%;
+  padding: 5px 100px;
+  font-size: 17px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:grey;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: black;}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+hr,footer{
+  margin-left: 5% !important;
+  margin-right: 5% !important;
 }
